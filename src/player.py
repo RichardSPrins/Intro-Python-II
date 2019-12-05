@@ -20,6 +20,7 @@ class Player:
     self.current_room.items.remove(item)
 
   def drop_item(self, item):
-    print(f'Dropped {item}')
-    self.inventory.remove(item)
     self.current_room.items.append(item)
+    self.inventory.remove(item)
+
+  
