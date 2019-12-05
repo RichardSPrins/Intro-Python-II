@@ -25,7 +25,7 @@ room = {
                      "North of you, the cave mount beckons", items = [items['rock']]),
 
     'foyer':    Room("Foyer", """Dim light filters in from the south. Dusty
-passages run north and east."""),
+passages run north and east.""", items = ['cobweb', 'rock' ]),
 
     'overlook': Room("Grand Overlook", """A steep cliff appears before you, falling
 into the darkness. Ahead to the north, a light flickers in
